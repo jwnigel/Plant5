@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G920" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Plant" representedClassName="Plant" syncable="YES" codeGenerationType="class">
+        <attribute name="commonName" optional="YES" attributeType="String"/>
+        <attribute name="ecosystemString" optional="YES" attributeType="String"/>
+        <attribute name="edible" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="edibleString" optional="YES" attributeType="String"/>
+        <attribute name="family" optional="YES" attributeType="String"/>
+        <attribute name="gbifUsageKey" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="genus" optional="YES" attributeType="String"/>
+        <attribute name="growthRate" optional="YES" attributeType="String"/>
+        <attribute name="habit" optional="YES" attributeType="String"/>
+        <attribute name="hardinessZones" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="String"/>
+        <attribute name="images" optional="YES" attributeType="Binary"/>
+        <attribute name="imageURLs" optional="YES" attributeType="String"/>
+        <attribute name="latinName" optional="YES" attributeType="String"/>
+        <attribute name="light" optional="YES" attributeType="String"/>
+        <attribute name="medicinal" optional="YES" attributeType="String"/>
+        <attribute name="moisture" optional="YES" attributeType="String"/>
+        <attribute name="nativeRegion" optional="YES" attributeType="String"/>
+        <attribute name="nuisances" optional="YES" attributeType="String"/>
+        <attribute name="plantForm" optional="YES" attributeType="String"/>
+        <attribute name="poison" optional="YES" attributeType="String"/>
+        <attribute name="rootPattern" optional="YES" attributeType="String"/>
+        <attribute name="soilAcidity" optional="YES" attributeType="String"/>
+        <attribute name="species" optional="YES" attributeType="String"/>
+        <attribute name="uuid" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="width" optional="YES" attributeType="String"/>
+    </entity>
+    <fetchRequest name="FetchRequest" entity="Plant"/>
+</model>

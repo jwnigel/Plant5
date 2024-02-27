@@ -3,7 +3,7 @@
 import SwiftUI
 import Foundation
 
-struct MainView: View {
+struct PlantListSearchView: View {
     
     @Environment(\.managedObjectContext) private var moc                        //
     @EnvironmentObject var viewModel: AppViewModel
@@ -58,7 +58,7 @@ struct MainView: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             ForEach(filters) { filter in
-                                FilterCard(filterName: filter.name)
+                                FilterButton(filterName: filter.name)
                                     .onTapGesture {
                                         // Handle the tap gesture here
                                         // For example, you might want to update the search based on the selected filter
@@ -134,7 +134,7 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        PlantListSearchView()
     }
 }
 

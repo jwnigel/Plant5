@@ -12,8 +12,8 @@
 		A66ED04C2B89042F00FC7A5D /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66ED04B2B89042F00FC7A5D /* PaletteView.swift */; };
 		A66ED04E2B8BC00900FC7A5D /* AddToPaletteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66ED04D2B8BC00900FC7A5D /* AddToPaletteButton.swift */; };
 		A66ED0502B8C378000FC7A5D /* CanvasDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66ED04F2B8C378000FC7A5D /* CanvasDesignView.swift */; };
-		A682BFBC2B7A988F00C01FA8 /* DataTaskPublisherFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A682BFBB2B7A988F00C01FA8 /* DataTaskPublisherFunApp.swift */; };
-		A682BFBE2B7A988F00C01FA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A682BFBD2B7A988F00C01FA8 /* MainView.swift */; };
+		A682BFBC2B7A988F00C01FA8 /* Plant5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A682BFBB2B7A988F00C01FA8 /* Plant5App.swift */; };
+		A682BFBE2B7A988F00C01FA8 /* PlantListSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A682BFBD2B7A988F00C01FA8 /* PlantListSearchView.swift */; };
 		A682BFC02B7A989100C01FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A682BFBF2B7A989100C01FA8 /* Assets.xcassets */; };
 		A682BFC32B7A989100C01FA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A682BFC22B7A989100C01FA8 /* Preview Assets.xcassets */; };
 		A682BFCD2B7A989100C01FA8 /* DataTaskPublisherFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A682BFCC2B7A989100C01FA8 /* DataTaskPublisherFunTests.swift */; };
@@ -31,9 +31,8 @@
 		A6ABB62A2B87E8D400A00EB4 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB6292B87E8D400A00EB4 /* XDismissButton.swift */; };
 		A6ABB62C2B88223D00A00EB4 /* PlantListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB62B2B88223D00A00EB4 /* PlantListCard.swift */; };
 		A6BC322D2B7C63AD0080B73E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC322C2B7C63AD0080B73E /* Color+Ext.swift */; };
-		A6BC322F2B7D2D930080B73E /* FilterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC322E2B7D2D930080B73E /* FilterCard.swift */; };
+		A6BC322F2B7D2D930080B73E /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC322E2B7D2D930080B73E /* FilterButton.swift */; };
 		A6BC32312B7D347A0080B73E /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC32302B7D347A0080B73E /* Filter.swift */; };
-		A6BC32332B7D3E420080B73E /* RecommendationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC32322B7D3E420080B73E /* RecommendationTitle.swift */; };
 		A6DB2A982B8853C400F3EA67 /* Plant+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB2A972B8853C400F3EA67 /* Plant+Ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,14 +59,14 @@
 		A66ED04B2B89042F00FC7A5D /* PaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
 		A66ED04D2B8BC00900FC7A5D /* AddToPaletteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToPaletteButton.swift; sourceTree = "<group>"; };
 		A66ED04F2B8C378000FC7A5D /* CanvasDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasDesignView.swift; sourceTree = "<group>"; };
-		A682BFB82B7A988F00C01FA8 /* DataTaskPublisherFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataTaskPublisherFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A682BFBB2B7A988F00C01FA8 /* DataTaskPublisherFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherFunApp.swift; sourceTree = "<group>"; };
-		A682BFBD2B7A988F00C01FA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A682BFB82B7A988F00C01FA8 /* Plant5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plant5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A682BFBB2B7A988F00C01FA8 /* Plant5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant5App.swift; sourceTree = "<group>"; };
+		A682BFBD2B7A988F00C01FA8 /* PlantListSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListSearchView.swift; sourceTree = "<group>"; };
 		A682BFBF2B7A989100C01FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A682BFC22B7A989100C01FA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A682BFC82B7A989100C01FA8 /* DataTaskPublisherFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTaskPublisherFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A682BFC82B7A989100C01FA8 /* Plant5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Plant5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A682BFCC2B7A989100C01FA8 /* DataTaskPublisherFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherFunTests.swift; sourceTree = "<group>"; };
-		A682BFD22B7A989100C01FA8 /* DataTaskPublisherFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTaskPublisherFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A682BFD22B7A989100C01FA8 /* Plant5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Plant5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A682BFD62B7A989100C01FA8 /* DataTaskPublisherFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherFunUITests.swift; sourceTree = "<group>"; };
 		A682BFD82B7A989100C01FA8 /* DataTaskPublisherFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A6ABB6162B81337500A00EB4 /* PlantJSONStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantJSONStruct.swift; sourceTree = "<group>"; };
@@ -82,9 +81,8 @@
 		A6ABB6292B87E8D400A00EB4 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		A6ABB62B2B88223D00A00EB4 /* PlantListCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListCard.swift; sourceTree = "<group>"; };
 		A6BC322C2B7C63AD0080B73E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
-		A6BC322E2B7D2D930080B73E /* FilterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCard.swift; sourceTree = "<group>"; };
+		A6BC322E2B7D2D930080B73E /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
 		A6BC32302B7D347A0080B73E /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
-		A6BC32322B7D3E420080B73E /* RecommendationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationTitle.swift; sourceTree = "<group>"; };
 		A6DB2A972B8853C400F3EA67 /* Plant+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,12 +111,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A66ED0872B8E874B00FC7A5D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC322E2B7D2D930080B73E /* FilterButton.swift */,
+				A6ABB6292B87E8D400A00EB4 /* XDismissButton.swift */,
+				A66ED04D2B8BC00900FC7A5D /* AddToPaletteButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		A66ED0882B8E87A500FC7A5D /* DB Data */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB61D2B8535F700A00EB4 /* final_data_v1.json */,
+				A6ABB61F2B8537DB00A00EB4 /* starter_data.json */,
+			);
+			path = "DB Data";
+			sourceTree = "<group>";
+		};
+		A66ED0892B8E87BA00FC7A5D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB2A972B8853C400F3EA67 /* Plant+Ext.swift */,
+				A6BC322C2B7C63AD0080B73E /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A66ED08A2B8E885B00FC7A5D /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB62B2B88223D00A00EB4 /* PlantListCard.swift */,
+				A6ABB6272B87C4FA00A00EB4 /* PlantDetailCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		A66ED08B2B8E889D00FC7A5D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB6252B868B0A00A00EB4 /* MenuView.swift */,
+				A682BFBD2B7A988F00C01FA8 /* PlantListSearchView.swift */,
+				A66ED04B2B89042F00FC7A5D /* PaletteView.swift */,
+				A66ED04F2B8C378000FC7A5D /* CanvasDesignView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A66ED08C2B8E88DD00FC7A5D /* Data Structs */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB6232B8689B100A00EB4 /* Data.swift */,
+				A66ED0492B8901C000FC7A5D /* Palette.swift */,
+				A6BC32302B7D347A0080B73E /* Filter.swift */,
+				A6ABB6162B81337500A00EB4 /* PlantJSONStruct.swift */,
+			);
+			path = "Data Structs";
+			sourceTree = "<group>";
+		};
+		A66ED08D2B8E88FF00FC7A5D /* DB Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB61B2B851A5700A00EB4 /* MyContainer.swift */,
+			);
+			path = "DB Logic";
+			sourceTree = "<group>";
+		};
 		A682BFAF2B7A988F00C01FA8 = {
 			isa = PBXGroup;
 			children = (
-				A682BFBA2B7A988F00C01FA8 /* DataTaskPublisherFun */,
-				A682BFCB2B7A989100C01FA8 /* DataTaskPublisherFunTests */,
-				A682BFD52B7A989100C01FA8 /* DataTaskPublisherFunUITests */,
+				A682BFBA2B7A988F00C01FA8 /* Plant5 */,
+				A682BFCB2B7A989100C01FA8 /* Plant5Tests */,
+				A682BFD52B7A989100C01FA8 /* Plant5UITests */,
 				A682BFB92B7A988F00C01FA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,43 +191,31 @@
 		A682BFB92B7A988F00C01FA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A682BFB82B7A988F00C01FA8 /* DataTaskPublisherFun.app */,
-				A682BFC82B7A989100C01FA8 /* DataTaskPublisherFunTests.xctest */,
-				A682BFD22B7A989100C01FA8 /* DataTaskPublisherFunUITests.xctest */,
+				A682BFB82B7A988F00C01FA8 /* Plant5.app */,
+				A682BFC82B7A989100C01FA8 /* Plant5Tests.xctest */,
+				A682BFD22B7A989100C01FA8 /* Plant5UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A682BFBA2B7A988F00C01FA8 /* DataTaskPublisherFun */ = {
+		A682BFBA2B7A988F00C01FA8 /* Plant5 */ = {
 			isa = PBXGroup;
 			children = (
-				A682BFBB2B7A988F00C01FA8 /* DataTaskPublisherFunApp.swift */,
-				A6ABB61B2B851A5700A00EB4 /* MyContainer.swift */,
+				A682BFBB2B7A988F00C01FA8 /* Plant5App.swift */,
 				A6ABB6212B86839900A00EB4 /* ContentView.swift */,
-				A6ABB6252B868B0A00A00EB4 /* MenuView.swift */,
-				A6ABB6232B8689B100A00EB4 /* Data.swift */,
-				A682BFBD2B7A988F00C01FA8 /* MainView.swift */,
-				A6ABB62B2B88223D00A00EB4 /* PlantListCard.swift */,
-				A6ABB6272B87C4FA00A00EB4 /* PlantDetailCard.swift */,
-				A6ABB6292B87E8D400A00EB4 /* XDismissButton.swift */,
-				A66ED04D2B8BC00900FC7A5D /* AddToPaletteButton.swift */,
+				A60D8AD12B7A9F56001FED22 /* AppViewModel.swift */,
+				A66ED08D2B8E88FF00FC7A5D /* DB Logic */,
+				A66ED08B2B8E889D00FC7A5D /* Screens */,
+				A66ED08C2B8E88DD00FC7A5D /* Data Structs */,
+				A66ED08A2B8E885B00FC7A5D /* Cards */,
+				A66ED0872B8E874B00FC7A5D /* Buttons */,
 				A6ABB6182B83BB7800A00EB4 /* Plant.xcdatamodeld */,
 				A682BFBF2B7A989100C01FA8 /* Assets.xcassets */,
 				A682BFC12B7A989100C01FA8 /* Preview Content */,
-				A60D8AD12B7A9F56001FED22 /* AppViewModel.swift */,
-				A6DB2A972B8853C400F3EA67 /* Plant+Ext.swift */,
-				A6BC322C2B7C63AD0080B73E /* Color+Ext.swift */,
-				A6BC322E2B7D2D930080B73E /* FilterCard.swift */,
-				A66ED0492B8901C000FC7A5D /* Palette.swift */,
-				A66ED04B2B89042F00FC7A5D /* PaletteView.swift */,
-				A6BC32302B7D347A0080B73E /* Filter.swift */,
-				A6BC32322B7D3E420080B73E /* RecommendationTitle.swift */,
-				A6ABB6162B81337500A00EB4 /* PlantJSONStruct.swift */,
-				A6ABB61D2B8535F700A00EB4 /* final_data_v1.json */,
-				A6ABB61F2B8537DB00A00EB4 /* starter_data.json */,
-				A66ED04F2B8C378000FC7A5D /* CanvasDesignView.swift */,
+				A66ED0892B8E87BA00FC7A5D /* Extensions */,
+				A66ED0882B8E87A500FC7A5D /* DB Data */,
 			);
-			path = DataTaskPublisherFun;
+			path = Plant5;
 			sourceTree = "<group>";
 		};
 		A682BFC12B7A989100C01FA8 /* Preview Content */ = {
@@ -173,29 +226,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A682BFCB2B7A989100C01FA8 /* DataTaskPublisherFunTests */ = {
+		A682BFCB2B7A989100C01FA8 /* Plant5Tests */ = {
 			isa = PBXGroup;
 			children = (
 				A682BFCC2B7A989100C01FA8 /* DataTaskPublisherFunTests.swift */,
 			);
-			path = DataTaskPublisherFunTests;
+			path = Plant5Tests;
 			sourceTree = "<group>";
 		};
-		A682BFD52B7A989100C01FA8 /* DataTaskPublisherFunUITests */ = {
+		A682BFD52B7A989100C01FA8 /* Plant5UITests */ = {
 			isa = PBXGroup;
 			children = (
 				A682BFD62B7A989100C01FA8 /* DataTaskPublisherFunUITests.swift */,
 				A682BFD82B7A989100C01FA8 /* DataTaskPublisherFunUITestsLaunchTests.swift */,
 			);
-			path = DataTaskPublisherFunUITests;
+			path = Plant5UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A682BFB72B7A988F00C01FA8 /* DataTaskPublisherFun */ = {
+		A682BFB72B7A988F00C01FA8 /* Plant5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A682BFDC2B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "DataTaskPublisherFun" */;
+			buildConfigurationList = A682BFDC2B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "Plant5" */;
 			buildPhases = (
 				A682BFB42B7A988F00C01FA8 /* Sources */,
 				A682BFB52B7A988F00C01FA8 /* Frameworks */,
@@ -205,14 +258,14 @@
 			);
 			dependencies = (
 			);
-			name = DataTaskPublisherFun;
+			name = Plant5;
 			productName = DataTaskPublisherFun;
-			productReference = A682BFB82B7A988F00C01FA8 /* DataTaskPublisherFun.app */;
+			productReference = A682BFB82B7A988F00C01FA8 /* Plant5.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A682BFC72B7A989100C01FA8 /* DataTaskPublisherFunTests */ = {
+		A682BFC72B7A989100C01FA8 /* Plant5Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A682BFDF2B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "DataTaskPublisherFunTests" */;
+			buildConfigurationList = A682BFDF2B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "Plant5Tests" */;
 			buildPhases = (
 				A682BFC42B7A989100C01FA8 /* Sources */,
 				A682BFC52B7A989100C01FA8 /* Frameworks */,
@@ -223,14 +276,14 @@
 			dependencies = (
 				A682BFCA2B7A989100C01FA8 /* PBXTargetDependency */,
 			);
-			name = DataTaskPublisherFunTests;
+			name = Plant5Tests;
 			productName = DataTaskPublisherFunTests;
-			productReference = A682BFC82B7A989100C01FA8 /* DataTaskPublisherFunTests.xctest */;
+			productReference = A682BFC82B7A989100C01FA8 /* Plant5Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A682BFD12B7A989100C01FA8 /* DataTaskPublisherFunUITests */ = {
+		A682BFD12B7A989100C01FA8 /* Plant5UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A682BFE22B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "DataTaskPublisherFunUITests" */;
+			buildConfigurationList = A682BFE22B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "Plant5UITests" */;
 			buildPhases = (
 				A682BFCE2B7A989100C01FA8 /* Sources */,
 				A682BFCF2B7A989100C01FA8 /* Frameworks */,
@@ -241,9 +294,9 @@
 			dependencies = (
 				A682BFD42B7A989100C01FA8 /* PBXTargetDependency */,
 			);
-			name = DataTaskPublisherFunUITests;
+			name = Plant5UITests;
 			productName = DataTaskPublisherFunUITests;
-			productReference = A682BFD22B7A989100C01FA8 /* DataTaskPublisherFunUITests.xctest */;
+			productReference = A682BFD22B7A989100C01FA8 /* Plant5UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -269,7 +322,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A682BFB32B7A988F00C01FA8 /* Build configuration list for PBXProject "DataTaskPublisherFun" */;
+			buildConfigurationList = A682BFB32B7A988F00C01FA8 /* Build configuration list for PBXProject "Plant5" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -285,9 +338,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A682BFB72B7A988F00C01FA8 /* DataTaskPublisherFun */,
-				A682BFC72B7A989100C01FA8 /* DataTaskPublisherFunTests */,
-				A682BFD12B7A989100C01FA8 /* DataTaskPublisherFunUITests */,
+				A682BFB72B7A988F00C01FA8 /* Plant5 */,
+				A682BFC72B7A989100C01FA8 /* Plant5Tests */,
+				A682BFD12B7A989100C01FA8 /* Plant5UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6BC322F2B7D2D930080B73E /* FilterCard.swift in Sources */,
+				A6BC322F2B7D2D930080B73E /* FilterButton.swift in Sources */,
 				A6ABB6282B87C4FA00A00EB4 /* PlantDetailCard.swift in Sources */,
 				A66ED04E2B8BC00900FC7A5D /* AddToPaletteButton.swift in Sources */,
 				A66ED0502B8C378000FC7A5D /* CanvasDesignView.swift in Sources */,
@@ -333,18 +386,17 @@
 				A66ED04A2B8901C000FC7A5D /* Palette.swift in Sources */,
 				A6ABB62C2B88223D00A00EB4 /* PlantListCard.swift in Sources */,
 				A6ABB6172B81337500A00EB4 /* PlantJSONStruct.swift in Sources */,
-				A6BC32332B7D3E420080B73E /* RecommendationTitle.swift in Sources */,
 				A6ABB61C2B851A5700A00EB4 /* MyContainer.swift in Sources */,
 				A6BC32312B7D347A0080B73E /* Filter.swift in Sources */,
 				A66ED04C2B89042F00FC7A5D /* PaletteView.swift in Sources */,
-				A682BFBE2B7A988F00C01FA8 /* MainView.swift in Sources */,
+				A682BFBE2B7A988F00C01FA8 /* PlantListSearchView.swift in Sources */,
 				A6DB2A982B8853C400F3EA67 /* Plant+Ext.swift in Sources */,
 				A6ABB6262B868B0A00A00EB4 /* MenuView.swift in Sources */,
 				A6ABB6242B8689B100A00EB4 /* Data.swift in Sources */,
 				A6BC322D2B7C63AD0080B73E /* Color+Ext.swift in Sources */,
 				A60D8AD22B7A9F56001FED22 /* AppViewModel.swift in Sources */,
 				A6ABB61A2B83BB7800A00EB4 /* Plant.xcdatamodeld in Sources */,
-				A682BFBC2B7A988F00C01FA8 /* DataTaskPublisherFunApp.swift in Sources */,
+				A682BFBC2B7A988F00C01FA8 /* Plant5App.swift in Sources */,
 				A6ABB62A2B87E8D400A00EB4 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,12 +423,12 @@
 /* Begin PBXTargetDependency section */
 		A682BFCA2B7A989100C01FA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A682BFB72B7A988F00C01FA8 /* DataTaskPublisherFun */;
+			target = A682BFB72B7A988F00C01FA8 /* Plant5 */;
 			targetProxy = A682BFC92B7A989100C01FA8 /* PBXContainerItemProxy */;
 		};
 		A682BFD42B7A989100C01FA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A682BFB72B7A988F00C01FA8 /* DataTaskPublisherFun */;
+			target = A682BFB72B7A988F00C01FA8 /* Plant5 */;
 			targetProxy = A682BFD32B7A989100C01FA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -503,7 +555,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DataTaskPublisherFun/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Plant5/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -532,7 +584,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DataTaskPublisherFun/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Plant5/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -569,7 +621,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataTaskPublisherFun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataTaskPublisherFun";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plant5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plant5";
 			};
 			name = Debug;
 		};
@@ -588,7 +640,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataTaskPublisherFun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataTaskPublisherFun";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plant5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plant5";
 			};
 			name = Release;
 		};
@@ -629,7 +681,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A682BFB32B7A988F00C01FA8 /* Build configuration list for PBXProject "DataTaskPublisherFun" */ = {
+		A682BFB32B7A988F00C01FA8 /* Build configuration list for PBXProject "Plant5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A682BFDA2B7A989100C01FA8 /* Debug */,
@@ -638,7 +690,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A682BFDC2B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "DataTaskPublisherFun" */ = {
+		A682BFDC2B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "Plant5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A682BFDD2B7A989100C01FA8 /* Debug */,
@@ -647,7 +699,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A682BFDF2B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "DataTaskPublisherFunTests" */ = {
+		A682BFDF2B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "Plant5Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A682BFE02B7A989100C01FA8 /* Debug */,
@@ -656,7 +708,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A682BFE22B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "DataTaskPublisherFunUITests" */ = {
+		A682BFE22B7A989100C01FA8 /* Build configuration list for PBXNativeTarget "Plant5UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A682BFE32B7A989100C01FA8 /* Debug */,

@@ -1,5 +1,5 @@
 //
-//  DataTaskPublisherFunApp.swift
+//  Plant5App.swift
 //  DataTaskPublisherFun
 //
 //  Created by Nigel Wright on 12/02/24.
@@ -13,7 +13,7 @@ import CoreData
 
 
 @main
-struct DataTaskPublisherFunApp: App {
+struct Plant5App: App {
 
     @StateObject var appViewModel = AppViewModel()
     let container = MyContainer(forPreview: true).container

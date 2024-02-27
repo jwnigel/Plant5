@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FilterCard: View {
+struct FilterButton: View {
     
     let filterName: String
     
@@ -26,6 +26,6 @@ struct FilterCard: View {
 
 struct FilterCard_Previews: PreviewProvider {
     static var previews: some View {
-        FilterCard(filterName: "Uses")
+        FilterButton(filterName: "Uses")
     }
 }

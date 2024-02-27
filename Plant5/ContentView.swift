@@ -33,7 +33,7 @@ struct ContentView: View {
             switch selectedMenu {
                 
             case .findPlants:
-                MainView()
+                PlantListSearchView()
             case .palette:
                 PaletteView()
             case .canvas:
