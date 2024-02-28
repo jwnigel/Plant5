@@ -8,11 +8,17 @@
 import SwiftUI
 
 
-struct DraggableCircle {
+
+
+// Icon Image names
+let pdfAssetNames = ["tree_icon_1", "tree_icon_2", "tree_icon_3", "tree_icon_4", "tree_icon_5", "tree_icon_6"]
+
+
+struct DraggablePlantIcon {
     var id = UUID()
     var currentDragOffset = CGSize.zero
     var totalDragOffset = CGSize.zero
-    let circleColor: Color
+    var imageName: String
 }
 
 
@@ -20,10 +26,7 @@ struct DraggableCircle {
 struct CanvasDesignView: View {
     
     @EnvironmentObject var viewModel: AppViewModel
-    @State private var draggableCircles:  [DraggableCircle] = []
-
-    
-    private var colors: [Color] = [Color.red, Color.blue, Color.yellow, Color.green, Color.purple, Color.orange, Color.pink, Color.brown, Color.cyan, Color.teal]
+    @State private var draggablePlantIcons:  [DraggablePlantIcon] = []
 
     
     var body: some View {
@@ -31,20 +34,22 @@ struct CanvasDesignView: View {
                     
                     // DESIGN CANVAS GOES HERE
                     
-                    ForEach(draggableCircles.indices, id:\.self) { idx in
-                        Circle()
+                    ForEach(draggablePlantIcons.indices, id:\.self) { idx in
+                        Image(draggablePlantIcons[idx].imageName)
+                            .resizable()
+                            .scaledToFit()
                             .frame(width: 100, height: 100)
-                            .offset(x: draggableCircles[idx].currentDragOffset.width + draggableCircles[idx].totalDragOffset.width,
-                                    y: draggableCircles[idx].currentDragOffset.height + draggableCircles[idx].totalDragOffset.height)
+                            .offset(x: draggablePlantIcons[idx].currentDragOffset.width + draggablePlantIcons[idx].totalDragOffset.width,
+                                    y: draggablePlantIcons[idx].currentDragOffset.height + draggablePlantIcons[idx].totalDragOffset.height)
                             .gesture(
                                 DragGesture()
                                     .onChanged { value in
-                                        draggableCircles[idx].currentDragOffset = value.translation
+                                        draggablePlantIcons[idx].currentDragOffset = value.translation
                                     }
                                     .onEnded { value in
-                                        draggableCircles[idx].totalDragOffset = CGSize(width: draggableCircles[idx].totalDragOffset.width + value.translation.width,
-                                                                                       height: draggableCircles[idx].totalDragOffset.height + value.translation.height)
-                                        draggableCircles[idx].currentDragOffset = CGSize.zero
+                                        draggablePlantIcons[idx].totalDragOffset = CGSize(width: draggablePlantIcons[idx].totalDragOffset.width + value.translation.width,
+                                                                                       height: draggablePlantIcons[idx].totalDragOffset.height + value.translation.height)
+                                        draggablePlantIcons[idx].currentDragOffset = CGSize.zero
                                     }
                             )
                     }
@@ -55,14 +60,16 @@ struct CanvasDesignView: View {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(viewModel.myPalette.plants) { designPlant in
-                                    let plantColor = colors.randomElement()
+                                    
                                     Button(action: {
-                                        self.draggableCircles.append(DraggableCircle(circleColor: plantColor!))
+                                        self.draggablePlantIcons.append(DraggablePlantIcon(imageName: designPlant.iconName!))
                                     }) {
                                         ZStack {
-                                            Circle()
-                                                 .frame(width: 100, height: 100)
-                                                 .foregroundColor(plantColor)
+                                            Image(designPlant.iconName!)
+                                                .resizable()
+                                                .scaledToFit()
+                                                .frame(width: 100, height: 100)
+                                            
                                             Text("\(designPlant.commonName?.capitalized ?? "NAME")")
                                                 .foregroundColor(.white)
                                                 .lineLimit(2)

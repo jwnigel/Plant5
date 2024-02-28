@@ -53,6 +53,8 @@ struct MyContainer {
         
     }
     
+
+    
     
     func addStarterData(moc:NSManagedObjectContext) {
         loadAndDecodeJSON(moc: moc,
@@ -77,6 +79,9 @@ struct MyContainer {
         }
     }
 
+
+    
+    
     func insertPlantsIntoCoreData(plants: [PlantJSONStruct], moc: NSManagedObjectContext) {
         
         plants.forEach { plantStruct in
@@ -103,6 +108,7 @@ struct MyContainer {
             plantEntity.edible = plantStruct.edible
             plantEntity.edibleString = plantStruct.edibleString
             plantEntity.ecosystemString = plantStruct.ecosystemString
+            plantEntity.iconName = pdfAssetNames.randomElement()!
             
             do {
                 try moc.save()

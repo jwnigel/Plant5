@@ -12,6 +12,7 @@
         <attribute name="habit" optional="YES" attributeType="String"/>
         <attribute name="hardinessZones" optional="YES" attributeType="String"/>
         <attribute name="height" optional="YES" attributeType="String"/>
+        <attribute name="iconName" optional="YES" attributeType="String"/>
         <attribute name="images" optional="YES" attributeType="Binary"/>
         <attribute name="imageURLs" optional="YES" attributeType="String"/>
         <attribute name="latinName" optional="YES" attributeType="String"/>

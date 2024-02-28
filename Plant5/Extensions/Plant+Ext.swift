@@ -14,6 +14,10 @@ extension Plant {
         super.awakeFromInsert()
         self.setValue(UUID(), forKey: "uuid")
     }
+    
+    func assignRandomImage() {
+        self.iconName = pdfAssetNames.randomElement()!
+    }
 }
 
 
@@ -47,3 +51,7 @@ func formatMeasurement(_ measurements: [Int]) -> String {
          return "\(measurements.first!) - \(measurements.last!) inches"
      }
  }
+
+
+
+
