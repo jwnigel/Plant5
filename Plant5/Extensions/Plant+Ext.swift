@@ -6,7 +6,7 @@
 //
 
 import CoreData
-
+import SwiftUI
 
 
 extension Plant {
@@ -53,5 +53,40 @@ func formatMeasurement(_ measurements: [Int]) -> String {
  }
 
 
+
+extension Plant {
+    var displayIconImage: Image {
+        let imageName: String
+        switch plantForm!.lowercased() {
+        case "tree":
+            imageName = "treeIcon1" // Assuming "treeIcon" is the name of your image asset for trees
+        case "shrub":
+            imageName = "shrubIcon1" // Assuming "shrubIcon" is the name of your image asset for shrubs
+        case "herb":
+            imageName = "herbIcon1" // Assuming "herbIcon" is the name of your image asset for herbs
+            //        case "bamboo":
+            //            imageName = "bambooIcon" // Assuming "bambooIcon" is the name of your image asset for bamboo
+        default:
+            //            imageName = "questionMark" // Default image for unknown plant forms
+            imageName = ""
+        }
+        return Image(imageName)
+    }
+    
+    var iconDisplaySize: Int {
+        let size: Int
+        switch plantForm!.lowercased() {
+        case "tree":
+            size = 64
+        case "shrub":
+            size = 53
+        case "herb":
+            size = 42
+        default:
+            size = 40
+        }
+        return size
+    }
+}
 
 

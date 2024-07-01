@@ -33,6 +33,10 @@
 		A6BC322D2B7C63AD0080B73E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC322C2B7C63AD0080B73E /* Color+Ext.swift */; };
 		A6BC322F2B7D2D930080B73E /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC322E2B7D2D930080B73E /* FilterButton.swift */; };
 		A6BC32312B7D347A0080B73E /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC32302B7D347A0080B73E /* Filter.swift */; };
+		A6CFE4D92B93DCE50052F7A1 /* DrawingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFE4D82B93DCE50052F7A1 /* DrawingEngine.swift */; };
+		A6CFE4DB2B93DD110052F7A1 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFE4DA2B93DD110052F7A1 /* DrawingView.swift */; };
+		A6CFE4DD2B93E43D0052F7A1 /* RowCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFE4DC2B93E43D0052F7A1 /* RowCanvas.swift */; };
+		A6CFE4DF2B94DE6F0052F7A1 /* DimensionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFE4DE2B94DE6F0052F7A1 /* DimensionEditorView.swift */; };
 		A6DB2A982B8853C400F3EA67 /* Plant+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB2A972B8853C400F3EA67 /* Plant+Ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +87,10 @@
 		A6BC322C2B7C63AD0080B73E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		A6BC322E2B7D2D930080B73E /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
 		A6BC32302B7D347A0080B73E /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		A6CFE4D82B93DCE50052F7A1 /* DrawingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingEngine.swift; sourceTree = "<group>"; };
+		A6CFE4DA2B93DD110052F7A1 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		A6CFE4DC2B93E43D0052F7A1 /* RowCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCanvas.swift; sourceTree = "<group>"; };
+		A6CFE4DE2B94DE6F0052F7A1 /* DimensionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionEditorView.swift; sourceTree = "<group>"; };
 		A6DB2A972B8853C400F3EA67 /* Plant+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +163,9 @@
 				A682BFBD2B7A988F00C01FA8 /* PlantListSearchView.swift */,
 				A66ED04B2B89042F00FC7A5D /* PaletteView.swift */,
 				A66ED04F2B8C378000FC7A5D /* CanvasDesignView.swift */,
+				A6CFE4DE2B94DE6F0052F7A1 /* DimensionEditorView.swift */,
+				A6CFE4DA2B93DD110052F7A1 /* DrawingView.swift */,
+				A6CFE4DC2B93E43D0052F7A1 /* RowCanvas.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -166,6 +177,7 @@
 				A66ED0492B8901C000FC7A5D /* Palette.swift */,
 				A6BC32302B7D347A0080B73E /* Filter.swift */,
 				A6ABB6162B81337500A00EB4 /* PlantJSONStruct.swift */,
+				A6CFE4D82B93DCE50052F7A1 /* DrawingEngine.swift */,
 			);
 			path = "Data Structs";
 			sourceTree = "<group>";
@@ -382,11 +394,14 @@
 				A6ABB6282B87C4FA00A00EB4 /* PlantDetailCard.swift in Sources */,
 				A66ED04E2B8BC00900FC7A5D /* AddToPaletteButton.swift in Sources */,
 				A66ED0502B8C378000FC7A5D /* CanvasDesignView.swift in Sources */,
+				A6CFE4DF2B94DE6F0052F7A1 /* DimensionEditorView.swift in Sources */,
+				A6CFE4DD2B93E43D0052F7A1 /* RowCanvas.swift in Sources */,
 				A6ABB6222B86839900A00EB4 /* ContentView.swift in Sources */,
 				A66ED04A2B8901C000FC7A5D /* Palette.swift in Sources */,
 				A6ABB62C2B88223D00A00EB4 /* PlantListCard.swift in Sources */,
 				A6ABB6172B81337500A00EB4 /* PlantJSONStruct.swift in Sources */,
 				A6ABB61C2B851A5700A00EB4 /* MyContainer.swift in Sources */,
+				A6CFE4DB2B93DD110052F7A1 /* DrawingView.swift in Sources */,
 				A6BC32312B7D347A0080B73E /* Filter.swift in Sources */,
 				A66ED04C2B89042F00FC7A5D /* PaletteView.swift in Sources */,
 				A682BFBE2B7A988F00C01FA8 /* PlantListSearchView.swift in Sources */,
@@ -395,6 +410,7 @@
 				A6ABB6242B8689B100A00EB4 /* Data.swift in Sources */,
 				A6BC322D2B7C63AD0080B73E /* Color+Ext.swift in Sources */,
 				A60D8AD22B7A9F56001FED22 /* AppViewModel.swift in Sources */,
+				A6CFE4D92B93DCE50052F7A1 /* DrawingEngine.swift in Sources */,
 				A6ABB61A2B83BB7800A00EB4 /* Plant.xcdatamodeld in Sources */,
 				A682BFBC2B7A988F00C01FA8 /* Plant5App.swift in Sources */,
 				A6ABB62A2B87E8D400A00EB4 /* XDismissButton.swift in Sources */,

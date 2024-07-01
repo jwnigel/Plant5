@@ -23,6 +23,9 @@ class AppViewModel: ObservableObject {
     
     @Published var plantDetailCardXPadding: CGFloat = 16
     @Published var plantDetailCardYPadding: CGFloat = 25
+    
+    @Published var lines: [Line] = []
+    @Published var isDrawingModeEnabled: Bool = false
 
     
     var cancellables: Set<AnyCancellable> = []

@@ -16,7 +16,12 @@ struct PlantListCard: View {
             Color(.brandPrimary!)
             HStack {
                 
-                VStack{
+                plant.displayIconImage
+                    .resizable()
+                    .frame(width: CGFloat(plant.iconDisplaySize), height: CGFloat(plant.iconDisplaySize)) // sized according to plant form (tree largest, herb smallest)
+                    .padding(.horizontal, 6)
+                
+                VStack {
                     Text(plant.habit ?? "")
                     Text(plant.plantForm ?? "")
                 }
@@ -57,7 +62,7 @@ struct PlantListCard: View {
                 }
             }
         }
-        .frame(height: 70)
+        .frame(height: 72)
         .clipShape(RoundedRectangle(cornerRadius: 8)) // Clip the HStack to a rounded rectangle shape
         .overlay(
             RoundedRectangle(cornerRadius: 8) // Use RoundedRectangle as the shape for the overlay

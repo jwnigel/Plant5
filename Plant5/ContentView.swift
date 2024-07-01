@@ -37,7 +37,9 @@ struct ContentView: View {
             case .palette:
                 PaletteView()
             case .canvas:
-                CanvasDesignView()
+                // Just Text for now
+                Text("Canvas View")
+//                CanvasDesignView()
             case .myDesign:
                 Text("Design View")
             case .settings:

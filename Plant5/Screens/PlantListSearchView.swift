@@ -12,6 +12,8 @@ struct PlantListSearchView: View {
     
     @State var isShowingDetailView = false
     
+    @State private var selectedFilter: Filter?
+    @State private var isShowingFilterSheet = false
     
     @State private var searchText: String
     
@@ -40,14 +42,18 @@ struct PlantListSearchView: View {
     
     init() {
         self._searchText = State(initialValue: "")
-        self._filterUses = State(initialValue: Filter(name: "Uses"))
-        self._filterForm = State(initialValue: Filter(name: "Plant Form"))
-        self._filterHabit = State(initialValue: Filter(name: "Habit"))
-        self._filterZone = State(initialValue: Filter(name: "Zone"))
-        self._filterSize = State(initialValue: Filter(name: "Size"))
-        self._filterLight = State(initialValue: Filter(name: "Light"))
-        self._filters = State(initialValue: [Filter(name: "Plant Form"), Filter(name: "Habit"), Filter(name: "Uses"), Filter(name: "Hardiness Zone"), Filter(name: "Size"), Filter(name: "Light")])
-        
+        self._filterUses = State(initialValue: Filter(name: "Uses", optionNames: []))
+        self._filterForm = State(initialValue: Filter(name: "Plant Form", optionNames: ["Tree", "Shrub", "Herb", "Vine", "Bamboo"]))
+        self._filterHabit = State(initialValue: Filter(name: "Habit", optionNames: []))
+        self._filterZone = State(initialValue: Filter(name: "Zone", optionNames: []))
+        self._filterSize = State(initialValue: Filter(name: "Size", optionNames: []))
+        self._filterLight = State(initialValue: Filter(name: "Light", optionNames: []))
+        self._filters = State(initialValue: [Filter(name: "Plant Form", optionNames: ["Tree", "Shrub", "Herb", "Vine", "Bamboo"]),
+                                             Filter(name: "Habit", optionNames: []),
+                                             Filter(name: "Uses", optionNames: []),
+                                             Filter(name: "Hardiness Zone", optionNames: []),
+                                             Filter(name: "Size", optionNames: []),
+                                             Filter(name: "Light", optionNames: [])])
     }
     
        
@@ -60,9 +66,8 @@ struct PlantListSearchView: View {
                             ForEach(filters) { filter in
                                 FilterButton(filterName: filter.name)
                                     .onTapGesture {
-                                        // Handle the tap gesture here
-                                        // For example, you might want to update the search based on the selected filter
-                                        print("Filter \(filter.name) tapped")
+                                        selectedFilter = filter
+                                        isShowingFilterSheet = true
                                     }
                             }
                         }
@@ -78,6 +83,19 @@ struct PlantListSearchView: View {
                                 print("Selected plant is \(viewModel.selectedPlant?.commonName)")
                             }
                     }
+                }
+                .sheet(isPresented: $isShowingFilterSheet) {
+                    VStack {
+                        Text(selectedFilter?.name ?? "")
+                            .fontWeight(.semibold)
+                        
+                        ForEach(selectedFilter?.optionNames ?? ["Filter 1", "Filter 2"], id: \.self) { filterOption in
+                            Text(filterOption ?? "")
+                        }
+                        .padding()
+
+                    }
+                    .presentationDetents([.medium])
                 }
                 
                 .background(Color.brandPrimary.opacity(0.9).ignoresSafeArea(.all))
